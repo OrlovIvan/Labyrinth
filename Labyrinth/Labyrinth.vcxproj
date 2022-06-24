@@ -20,8 +20,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\BrickWall.cpp" />
+    <ClCompile Include="..\src\Character.cpp" />
     <ClCompile Include="..\src\Enemy.cpp" />
+    <ClCompile Include="..\src\Hero.cpp" />
     <ClCompile Include="..\src\Knife.cpp" />
+    <ClCompile Include="..\src\Knight.cpp" />
     <ClCompile Include="..\src\Labyrinth.cpp" />
     <ClCompile Include="..\src\Pick.cpp" />
     <ClCompile Include="..\src\Wall.cpp" />
@@ -31,8 +34,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\BrickWall.h" />
+    <ClInclude Include="..\src\Character.h" />
+    <ClInclude Include="..\src\Configs.h" />
     <ClInclude Include="..\src\Enemy.h" />
+    <ClInclude Include="..\src\Hero.h" />
     <ClInclude Include="..\src\Knife.h" />
+    <ClInclude Include="..\src\Knight.h" />
     <ClInclude Include="..\src\Pick.h" />
     <ClInclude Include="..\src\Wall.h" />
     <ClInclude Include="..\src\WallsScheme.h" />

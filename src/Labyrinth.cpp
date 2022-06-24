@@ -3,6 +3,8 @@
 
 #include <iostream>
 #include "WallsScheme.h"
+#include "Knight.h"
+#include "Configs.h"
 
 int main()
 {
@@ -10,6 +12,8 @@ int main()
 
     WallsScheme scheme;
     //configRead(scheme);
+
+    Hero* hero = new Knight(knightBasicParam);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
